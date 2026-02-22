@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MOSASA – Memory reklama</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img class="logo" src="assets/logo.png" alt="MOSASA logo" onerror="this.style.display='none'">
+      <div>
+        <h1>MOSASA Memory reklama</h1>
+        <p class="subtitle">Razvoj digitalne reklame kroz igru memorije (4×4)</p>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><span class="label">Vrijeme</span><span id="time">00:00</span></div>
+      <div class="stat"><span class="label">Potezi</span><span id="moves">0</span></div>
+      <div class="stat"><span class="label">Impresije</span><span id="impressions">0</span></div>
+      <div class="stat"><span class="label">Klikovi</span><span id="clicks">0</span></div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="game">
+      <div class="controls">
+        <button id="newGameBtn">Nova igra</button>
+        <button id="showEndAdBtn" class="ghost">Prikaži ponudu</button>
+      </div>
+
+      <div id="board" class="board" aria-label="Memory tabla"></div>
+
+      <div class="hint">
+        <strong>Kako radi reklama:</strong> nakon pogođenog para pojavi se MOSASA promo kartica + CTA dugme.
+      </div>
+    </section>
+
+    <aside class="adpanel" aria-label="Reklamni panel">
+      <div class="adheader">
+        <h2>Promo</h2>
+        <span id="adTag" class="tag">MOSASA</span>
+      </div>
+
+      <div id="adBody" class="adbody">
+        <p class="muted">Pogodi par da otključaš promotivnu poruku.</p>
+      </div>
+
+      <div class="adfooter">
+        <button id="ctaBtn" disabled>Kontaktiraj MOSASA</button>
+        <div class="small muted" id="ctaInfo">CTA će biti aktivan kada se prikaže reklama.</div>
+      </div>
+    </aside>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

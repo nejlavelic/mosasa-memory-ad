@@ -1,0 +1,74 @@
+{
+  "brand": "MOSASA",
+  "contacts": {
+    "instagram": "https://www.instagram.com/mosa_sa._?igsh=MTMyamg2djI1bWVucw==",
+    "facebook": "https://www.facebook.com/share/1K4MFqa98X/?mibextid=wwXIfr",
+    "phone": "+387 00 000 000"
+  },
+  "items": [
+    {
+      "id": "majice",
+      "title": "Majice po narudžbi",
+      "text": "Muške / ženske / dječije. Štampa: DTF, FLEX, SITO.",
+      "image": "assets/cards/placeholder1.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
+    },
+    {
+      "id": "duksevi",
+      "title": "Duksevi & dukserice",
+      "text": "Udobno + kvalitetan print. Dizajn po tvojoj želji.",
+      "image": "assets/cards/placeholder2.jpg",
+      "ctaText": "Kontakt (Facebook)",
+      "ctaLinkKey": "facebook"
+    },
+    {
+      "id": "trenerke",
+      "title": "Trenerke",
+      "text": "Setovi i pojedinačno – štampa i personalizacija.",
+      "image": "assets/cards/placeholder3.jpg",
+      "ctaText": "Pozovi",
+      "ctaLinkKey": "phone"
+    },
+    {
+      "id": "kape",
+      "title": "Kape",
+      "text": "Minimal dizajn ili custom logo – idealno za poklon.",
+      "image": "assets/cards/placeholder4.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
+    },
+    {
+      "id": "torbe",
+      "title": "Torbe & ruksaci",
+      "text": "Praktično + unikatan print. Super za poklon.",
+      "image": "assets/cards/placeholder5.jpg",
+      "ctaText": "Kontakt (Facebook)",
+      "ctaLinkKey": "facebook"
+    },
+    {
+      "id": "cekeri",
+      "title": "Cekeri",
+      "text": "Personalizovani cekeri – print po želji.",
+      "image": "assets/cards/placeholder6.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
+    },
+    {
+      "id": "bodici",
+      "title": "Bodići",
+      "text": "Pokloni za bebe – natpisi i ilustracije po narudžbi.",
+      "image": "assets/cards/placeholder7.jpg",
+      "ctaText": "Pozovi",
+      "ctaLinkKey": "phone"
+    },
+    {
+      "id": "stampatehnike",
+      "title": "DTF / FLEX / SITO",
+      "text": "Odabir tehnike prema dizajnu i tekstilu – sve po narudžbi.",
+      "image": "assets/cards/placeholder8.jpg",
+      "ctaText": "Kontakt (Instagram)",
+      "ctaLinkKey": "instagram"
+    }
+  ]
+}
