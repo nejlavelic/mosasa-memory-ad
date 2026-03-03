@@ -642,15 +642,24 @@ button:disabled{
 
 /* LOGO NA PREDNJOJ STRANI KARTICE */
 
+/* LOGO NA PREDNJOJ STRANI KARTICE */
+
+/* LOGO NA PREDNJOJ STRANI KARTICE */
+.face.front{
+  padding: 0; /* da logo može do krajeva */
+}
+
 .card-logo{
   width: 100%;
   height: 100%;
-  object-fit: contain; /* da se logo ne iskrivi */
-  padding: 18px;       /* malo prostora oko loga */
+  object-fit: contain;   /* ne iskrivi logo */
+  padding: 14px;         /* malo prostora oko loga */
   box-sizing: border-box;
   display: block;
+  opacity: 0.95;
+  transition: transform .2s ease;
 }
 
 .card:hover .card-logo{
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
