@@ -649,13 +649,17 @@ button:disabled{
   padding: 0; /* da logo može do krajeva */
 }
 
+.front{
+  padding: 0;
+}
+
 .card-logo{
   width: 100%;
   height: 100%;
-  object-fit: contain;   /* ne iskrivi logo */
-  padding: 14px;         /* malo prostora oko loga */
-  box-sizing: border-box;
+  object-fit: cover;
   display: block;
-  opacity: 0.95;
-  transition: transform .2s ease;
+
+  /* POJAČAJ LOGO da pojede bijeli prostor */
+  transform: scale(1.25);   /* ako treba više → 1.35 */
+  transform-origin: center;
 }
