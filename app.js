@@ -146,11 +146,10 @@ function renderBoard() {
 
    cardEl.innerHTML = `
   <div class="face front">
-    <!-- OVDJE UBACI SLIKU -->
     <img class="card-logo" src="assets/logo/logo.png" alt="MOSASA logo">
   </div>
       <div class="face back">
-        <img src="${card.image}" alt="${card.title}" onerror="this.style.display='none'">
+        <img src="${card.image}" alt="${card.title}">
       </div>
     `;
 
@@ -305,4 +304,5 @@ ctaBtn.addEventListener("click", () => {
 newGame().catch((err) => {
   console.error(err);
   toast("Greška: provjeri ads.json ili putanje slika.");
+
 });
