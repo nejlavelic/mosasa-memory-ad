@@ -643,11 +643,12 @@ button:disabled{
 /* LOGO NA PREDNJOJ STRANI KARTICE */
 
 .card-logo{
-  width:70%;
-  height:auto;
-  object-fit:contain;
-  opacity:0.9;
-  transition: transform .2s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* da se logo ne iskrivi */
+  padding: 18px;       /* malo prostora oko loga */
+  box-sizing: border-box;
+  display: block;
 }
 
 .card:hover .card-logo{
