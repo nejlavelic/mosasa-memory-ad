@@ -660,6 +660,7 @@ button:disabled{
   display: block;
 
   /* POJAČAJ LOGO da pojede bijeli prostor */
-  transform: scale(1.25);   /* ako treba više → 1.35 */
+  transform: scale(1.15);   /* ako treba više → 1.35 */
   transform-origin: center;
+
 }
