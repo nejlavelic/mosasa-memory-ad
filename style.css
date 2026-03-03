@@ -659,7 +659,3 @@ button:disabled{
   opacity: 0.95;
   transition: transform .2s ease;
 }
-
-.card:hover .card-logo{
-  transform: scale(1.03);
-}
