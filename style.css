@@ -639,3 +639,17 @@ button:disabled{
   transition:.2s ease;
 }
 .toast.show{opacity:1}
+
+/* LOGO NA PREDNJOJ STRANI KARTICE */
+
+.card-logo{
+  width:70%;
+  height:auto;
+  object-fit:contain;
+  opacity:0.9;
+  transition: transform .2s ease;
+}
+
+.card:hover .card-logo{
+  transform: scale(1.05);
+}

@@ -144,10 +144,11 @@ function renderBoard() {
     cardEl.setAttribute("aria-label", "Memory karta");
     cardEl.dataset.cardId = String(card.cardId);
 
-    cardEl.innerHTML = `
-      <div class="face front">
-        <div class="mark">MOSASA</div>
-      </div>
+   cardEl.innerHTML = `
+  <div class="face front">
+    <!-- OVDJE UBACI SLIKU -->
+    <img class="card-logo" src="assets/logo/logo.png" alt="MOSASA logo">
+  </div>
       <div class="face back">
         <img src="${card.image}" alt="${card.title}" onerror="this.style.display='none'">
       </div>
