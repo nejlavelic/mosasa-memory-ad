@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MOSASA – Memory reklama</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <!-- FIX: putanja do logo.png -->
+      <img class="logo" src="assets/logo/logo.png" alt="MOSASA logo" onerror="this.style.display='none'">
+      <div>
+        <h1>MOSASA Memory reklama</h1>
+        <p class="subtitle">Razvoj digitalne reklame kroz igru memorije (4×4)</p>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><span class="label">Vrijeme</span><span id="time" class="value">00:00</span></div>
+      <div class="stat"><span class="label">Potezi</span><span id="moves" class="value">0</span></div>
+      <div class="stat"><span class="label">Impresije</span><span id="impressions" class="value">0</span></div>
+      <div class="stat"><span class="label">Klikovi</span><span id="clicks" class="value">0</span></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="board-card">
+      <div class="board-head">
+        <button id="newGameBtn" class="btn primary">Nova igra</button>
+        <button id="showOffersBtn" class="btn ghost">Prikaži ponudu</button>
+      </div>
+
+      <div id="board" class="board" aria-label="Memory tabla"></div>
+    </section>
+
+    <aside class="promo-card">
+      <div class="promo-head">
+        <h2>Promo</h2>
+        <span class="pill">MOSASA</span>
+      </div>
+
+      <div id="promoBox" class="promo-box">
+        <p class="muted">Pogodi par da otključaš promotivnu poruku.</p>
+      </div>
+
+      <button id="ctaBtn" class="btn cta" disabled>Kontaktiraj MOSASA</button>
+      <p class="note">CTA će biti aktivan kada se prikaže reklama.</p>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
