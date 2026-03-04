@@ -9,7 +9,7 @@
     {
       "id": "kacket",
       "title": "Kačket (custom)",
-      "text": "Štampa ili vez po želji – idealno za poklon ili tim.",
+      "text": "Štampa po narudžbi — idealno za poklon i promo.",
       "image": "assets/cards/kacket.jpg",
       "ctaText": "Naruči (Instagram)",
       "ctaLinkKey": "instagram"
@@ -17,16 +17,8 @@
     {
       "id": "maske",
       "title": "Maske za lice",
-      "text": "Personalizovane maske – inicijali, natpis ili dizajn.",
+      "text": "Personalizacija: inicijali, natpisi ili dizajn po želji.",
       "image": "assets/cards/maske.jpg",
-      "ctaText": "Kontakt (Facebook)",
-      "ctaLinkKey": "facebook"
-    },
-    {
-      "id": "majica",
-      "title": "Majice po narudžbi",
-      "text": "Muške / ženske / dječije. Štampa: DTF, FLEX, SITO.",
-      "image": "assets/cards/majica.jpg",
       "ctaText": "Naruči (Instagram)",
       "ctaLinkKey": "instagram"
     },
@@ -39,17 +31,33 @@
       "ctaLinkKey": "facebook"
     },
     {
+      "id": "majica",
+      "title": "Majice",
+      "text": "Muške / ženske / dječije — DTF, FLEX ili SITO štampa.",
+      "image": "assets/cards/majica.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
+    },
+    {
       "id": "trenerka",
       "title": "Trenerke",
-      "text": "Setovi ili pojedinačno – personalizacija i štampa.",
+      "text": "Setovi ili pojedinačno — print i personalizacija.",
       "image": "assets/cards/trenerka.jpg",
       "ctaText": "Pozovi",
       "ctaLinkKey": "phone"
     },
     {
+      "id": "solje",
+      "title": "Šolje",
+      "text": "Poklon šolje s fotografijom, natpisom ili ilustracijom.",
+      "image": "assets/cards/solje.jpg",
+      "ctaText": "Kontakt (Facebook)",
+      "ctaLinkKey": "facebook"
+    },
+    {
       "id": "ceker",
       "title": "Cekeri",
-      "text": "Platneni cekeri sa printom po želji – praktično i moderno.",
+      "text": "Platneni cekeri — print po želji, super za svaki dan.",
       "image": "assets/cards/ceker.jpg",
       "ctaText": "Naruči (Instagram)",
       "ctaLinkKey": "instagram"
@@ -57,16 +65,8 @@
     {
       "id": "podkapa",
       "title": "Podkape",
-      "text": "Topla i minimalistična podkapa – idealna za zimu.",
+      "text": "Jednobojne ili custom — praktično i moderno.",
       "image": "assets/cards/podkapa.jpg",
-      "ctaText": "Naruči (Instagram)",
-      "ctaLinkKey": "instagram"
-    },
-    {
-      "id": "solje",
-      "title": "Šolje sa printom",
-      "text": "Slika, natpis ili dizajn po narudžbi – super poklon.",
-      "image": "assets/cards/solje.jpg",
       "ctaText": "Pozovi",
       "ctaLinkKey": "phone"
     }
