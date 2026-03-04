@@ -1,0 +1,74 @@
+{
+  "brand": "MOSASA",
+  "contacts": {
+    "instagram": "https://www.instagram.com/mosa_sa._?igsh=MTMyamg2djI1bWVucw==",
+    "facebook": "https://www.facebook.com/share/1K4MFqa98X/?mibextid=wwXIfr",
+    "phone": "+387 00 000 000"
+  },
+  "items": [
+    {
+      "id": "kacket",
+      "title": "Kačket (custom)",
+      "text": "Kačketi sa štampom ili logom po narudžbi.",
+      "image": "assets/cards/kacket.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
+    },
+    {
+      "id": "maske",
+      "title": "Maske za lice",
+      "text": "Inicijali, natpisi ili dizajn po želji.",
+      "image": "assets/cards/maske.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
+    },
+    {
+      "id": "dukserica",
+      "title": "Dukserice",
+      "text": "Udobno + kvalitetan print. Dizajn po tvojoj želji.",
+      "image": "assets/cards/dukserica.jpg",
+      "ctaText": "Kontakt (Facebook)",
+      "ctaLinkKey": "facebook"
+    },
+    {
+      "id": "majica",
+      "title": "Majice",
+      "text": "Muške / ženske / dječije — DTF, FLEX ili SITO štampa.",
+      "image": "assets/cards/majica.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
+    },
+    {
+      "id": "trenerka",
+      "title": "Trenerke",
+      "text": "Setovi ili pojedinačno — print i personalizacija.",
+      "image": "assets/cards/trenerka.jpg",
+      "ctaText": "Pozovi",
+      "ctaLinkKey": "phone"
+    },
+    {
+      "id": "solje",
+      "title": "Šolje",
+      "text": "Šolje sa fotografijom, natpisom ili ilustracijom.",
+      "image": "assets/cards/solje.jpg",
+      "ctaText": "Kontakt (Facebook)",
+      "ctaLinkKey": "facebook"
+    },
+    {
+      "id": "ceker",
+      "title": "Cekeri",
+      "text": "Platneni cekeri — print po želji, super za svaki dan.",
+      "image": "assets/cards/ceker.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
+    },
+    {
+      "id": "podkapa",
+      "title": "Podkape",
+      "text": "Jednobojne ili custom — praktično i moderno.",
+      "image": "assets/cards/podkapa.jpg",
+      "ctaText": "Pozovi",
+      "ctaLinkKey": "phone"
+    }
+  ]
+}
