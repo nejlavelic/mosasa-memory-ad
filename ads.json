@@ -7,68 +7,69 @@
   },
   "items": [
     {
-      "id": "majice",
+      "id": "kacket",
+      "title": "Kačket (custom)",
+      "text": "Štampa ili vez po želji – idealno za poklon ili tim.",
+      "image": "assets/cards/kacket.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
+    },
+    {
+      "id": "maske",
+      "title": "Maske za lice",
+      "text": "Personalizovane maske – inicijali, natpis ili dizajn.",
+      "image": "assets/cards/maske.jpg",
+      "ctaText": "Kontakt (Facebook)",
+      "ctaLinkKey": "facebook"
+    },
+    {
+      "id": "majica",
       "title": "Majice po narudžbi",
       "text": "Muške / ženske / dječije. Štampa: DTF, FLEX, SITO.",
-      "image": "assets/cards/placeholder1.jpg",
+      "image": "assets/cards/majica.jpg",
       "ctaText": "Naruči (Instagram)",
       "ctaLinkKey": "instagram"
     },
     {
-      "id": "duksevi",
-      "title": "Duksevi & dukserice",
+      "id": "dukserica",
+      "title": "Dukserice",
       "text": "Udobno + kvalitetan print. Dizajn po tvojoj želji.",
-      "image": "assets/cards/placeholder2.jpg",
+      "image": "assets/cards/dukserica.jpg",
       "ctaText": "Kontakt (Facebook)",
       "ctaLinkKey": "facebook"
     },
     {
-      "id": "trenerke",
+      "id": "trenerka",
       "title": "Trenerke",
-      "text": "Setovi i pojedinačno – štampa i personalizacija.",
-      "image": "assets/cards/placeholder3.jpg",
+      "text": "Setovi ili pojedinačno – personalizacija i štampa.",
+      "image": "assets/cards/trenerka.jpg",
       "ctaText": "Pozovi",
       "ctaLinkKey": "phone"
     },
     {
-      "id": "kape",
-      "title": "Kape",
-      "text": "Minimal dizajn ili custom logo – idealno za poklon.",
-      "image": "assets/cards/placeholder4.jpg",
-      "ctaText": "Naruči (Instagram)",
-      "ctaLinkKey": "instagram"
-    },
-    {
-      "id": "torbe",
-      "title": "Torbe & ruksaci",
-      "text": "Praktično + unikatan print. Super za poklon.",
-      "image": "assets/cards/placeholder5.jpg",
-      "ctaText": "Kontakt (Facebook)",
-      "ctaLinkKey": "facebook"
-    },
-    {
-      "id": "cekeri",
+      "id": "ceker",
       "title": "Cekeri",
-      "text": "Personalizovani cekeri – print po želji.",
-      "image": "assets/cards/placeholder6.jpg",
+      "text": "Platneni cekeri sa printom po želji – praktično i moderno.",
+      "image": "assets/cards/ceker.jpg",
       "ctaText": "Naruči (Instagram)",
       "ctaLinkKey": "instagram"
     },
     {
-      "id": "bodici",
-      "title": "Bodići",
-      "text": "Pokloni za bebe – natpisi i ilustracije po narudžbi.",
-      "image": "assets/cards/placeholder7.jpg",
-      "ctaText": "Pozovi",
-      "ctaLinkKey": "phone"
+      "id": "podkapa",
+      "title": "Podkape",
+      "text": "Topla i minimalistična podkapa – idealna za zimu.",
+      "image": "assets/cards/podkapa.jpg",
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
     },
     {
-      "id": "stampatehnike",
-      "title": "DTF / FLEX / SITO",
-      "text": "Odabir tehnike prema dizajnu i tekstilu – sve po narudžbi.",
-      "image": "assets/cards/placeholder8.jpg",
-      "ctaText": "Kontakt (Instagram)",
-      "ctaLinkKey": "instagram"
+      "id": "solje",
+      "title": "Šolje sa printom",
+      "text": "Slika, natpis ili dizajn po narudžbi – super poklon.",
+      "image": "assets/cards/solje.jpg",
+      "ctaText": "Pozovi",
+      "ctaLinkKey": "phone"
     }
   ]
+}
 }
