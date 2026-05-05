@@ -43,8 +43,8 @@
       "title": "Trenerka",
       "text": "Setovi ili pojedinačno — print i personalizacija.",
       "image": "assets/cards/trenerka.jpg",
-      "ctaText": "Pozovi",
-      "ctaLinkKey": "phone"
+      "ctaText": "Naruči (Instagram)",
+      "ctaLinkKey": "instagram"
     },
     {
       "id": "solje",
@@ -67,8 +67,8 @@
       "title": "Podkapa",
       "text": "Jednobojna ili custom — praktično i moderno.",
       "image": "assets/cards/podkapa.jpg",
-      "ctaText": "Pozovi",
-      "ctaLinkKey": "phone"
+       "ctaText": "Kontakt (Facebook)",
+      "ctaLinkKey": "facebook"
     }
   ]
 }
