@@ -153,10 +153,6 @@ h1{
   gap: 12px;
   padding: 8px;
 }
-
-/* =========================
-   FIX: stabilan flip
-   ========================= */
 .card{
   aspect-ratio:1/1;
   border-radius:18px;
@@ -167,11 +163,9 @@ h1{
   overflow:hidden;
   transition: box-shadow .2s ease, filter .2s ease;
 
-  /* 3D okretanje radi na unutrašnjem sloju */
   perspective: 1000px;
 }
 
-/* unutrašnji sloj koji se rotira */
 .card-inner{
   position:absolute;
   inset:0;
@@ -179,13 +173,11 @@ h1{
   transition: transform .35s ease;
 }
 
-/* hover lift (prije flip-a) */
 .card:hover{
   box-shadow: var(--shadow2);
   filter: saturate(1.02);
 }
 
-/* rotacija ide na inner, NE na button */
 .card.flipped .card-inner{
   transform: rotateY(180deg);
 }
@@ -227,13 +219,11 @@ h1{
   border-radius:18px;
 }
 
-/* matched + gold glow */
 .card.matched{
   outline:2px solid rgba(201,162,74,.85);
   box-shadow: 0 16px 50px rgba(201,162,74,.18);
 }
 
-/* promo */
 .promo-card{
   padding: 16px;
 }
