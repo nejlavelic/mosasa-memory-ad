@@ -1,8 +1,6 @@
 "use strict";
 
-/* =========================
-   DOM
-   ========================= */
+
 const boardEl = document.getElementById("board");
 const timeEl = document.getElementById("time");
 const movesEl = document.getElementById("moves");
@@ -15,9 +13,6 @@ const showOffersBtn = document.getElementById("showOffersBtn");
 const promoBox = document.getElementById("promoBox");
 const ctaBtn = document.getElementById("ctaBtn");
 
-/* =========================
-   STATE
-   ========================= */
 let adsData = null;
 let deck = [];
 let firstPick = null;
@@ -33,9 +28,6 @@ let timerId = null;
 
 let currentOffer = null;
 
-/* =========================
-   HELPERS
-   ========================= */
 function pad2(n) {
   return String(n).padStart(2, "0");
 }
@@ -85,18 +77,14 @@ function shuffle(arr) {
   return a;
 }
 
-/* =========================
-   LOAD ADS
-   ========================= */
+
 async function loadAds() {
   const res = await fetch("ads.json");
   if (!res.ok) throw new Error("Ne mogu učitati ads.json");
   adsData = await res.json();
 }
 
-/* =========================
-   GAME SETUP
-   ========================= */
+
 function buildDeckFromAds() {
   const items = adsData.items;
 
@@ -130,9 +118,7 @@ function newGame() {
   startTimer();
 }
 
-/* =========================
-   RENDER
-   ========================= */
+
 function renderBoard() {
   boardEl.innerHTML = "";
   deck.forEach((card) => {
@@ -159,9 +145,7 @@ function renderBoard() {
   });
 }
 
-/* =========================
-   GAME LOGIC
-   ========================= */
+
 function getCardElById(cardId) {
   return boardEl.querySelector(`[data-card-id="${cardId}"]`);
 }
@@ -238,9 +222,6 @@ function onCardClick(cardId) {
   }
 }
 
-/* =========================
-   PROMO
-   ========================= */
 function showOffer(item) {
   currentOffer = item;
   setImpressions(impressions + 1);
@@ -278,9 +259,6 @@ showOffersBtn.addEventListener("click", () => {
   showOffer(randomItem);
 });
 
-/* =========================
-   WIN
-   ========================= */
 function checkWin() {
   const allMatched = Array.from(boardEl.querySelectorAll(".card")).every((c) =>
     c.classList.contains("matched")
@@ -292,9 +270,7 @@ function checkWin() {
   }
 }
 
-/* =========================
-   INIT
-   ========================= */
+
 newGameBtn.addEventListener("click", () => newGame());
 
 (async function init() {
