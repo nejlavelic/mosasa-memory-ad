@@ -195,7 +195,6 @@ function onCardClick(cardId) {
   const cardB = findCardByCardId(secondPick);
 
   if (isPair(cardA, cardB)) {
-    // matched
     setTimeout(() => {
       markMatched(firstPick);
       markMatched(secondPick);
@@ -203,14 +202,11 @@ function onCardClick(cardId) {
       firstPick = null;
       secondPick = null;
 
-      // prikazi promo za taj par
       showOffer(cardA);
 
-      // provjeri win
       checkWin();
     }, 350);
   } else {
-    // not matched
     setTimeout(() => {
       flipCard(firstPick, false);
       flipCard(secondPick, false);
@@ -247,12 +243,11 @@ ctaBtn.addEventListener("click", () => {
 
   setClicks(clicks + 1);
 
-  // otvori link
+
   window.open(url, "_blank", "noopener,noreferrer");
 });
 
 showOffersBtn.addEventListener("click", () => {
-  // ručno prikaži random ponudu (opcijski)
   const items = adsData.items;
   const randomItem = items[Math.floor(Math.random() * items.length)];
   showOffer(randomItem);
