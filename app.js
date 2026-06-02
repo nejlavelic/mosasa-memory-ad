@@ -88,7 +88,6 @@ async function loadAds() {
 function buildDeckFromAds() {
   const items = adsData.items;
 
-  // napravi parove (2x svaki item)
   const pairs = [];
   items.forEach((it) => {
     pairs.push({ ...it, cardId: `${it.id}-a` });
